@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>რეგისტრაცია</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+    <div class="form">
+        <div class="close">X</div>
+
+        <h1>რეგისტრაცია</h1>
+        
+
+        <form>
+            <div class="name">
+                <input type="text" placeholder="სახელი">
+                <input type="text" placeholder="გვარი">
+            </div>
+
+            <input type="text" placeholder="მობილურის ნომერი ან ელფოსტა">
+
+            <input type="password" placeholder="ახალი პაროლი">
+
+            <label>დაბადების თარიღი</label>
+
+            <div class="date">
+                <select>
+                    <option>2021</option>
+                    <option>2000</option>
+                    <option>1990</option>
+                </select>
+
+                <select>
+                    <option>26</option>
+                    <option>15</option>
+                    <option>10</option>
+                </select>
+
+                <select>
+                    <option>სექტ.</option>
+                    <option>იანვ.</option>
+                    <option>მაისი</option>
+                </select>
+            </div>
+
+            <label>სქესი</label>
+
+            <div class="gender">
+                <label>მდედრობითი
+                    <input type="radio" name="gender">
+                </label>
+
+                <label>მამრობითი
+                    <input type="radio" name="gender">
+                </label>
+
+                <label>სხვა
+                    <input type="radio" name="gender">
+                </label>
+            </div>
+
+            <p>რეგისტრაციით ეთანხმებით პირობებს.</p>
+
+            <button type="submit">რეგისტრაცია</button>
+        </form>
+    </div>
+
+</body>
+</html>

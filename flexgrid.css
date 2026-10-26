@@ -1,0 +1,126 @@
+
+.conteiner {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-image: url(./Frame\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 145px;
+  padding-left: 275px;
+  gap: 200px;
+  align-items: flex-start;
+}
+
+.about {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+
+}
+
+p {
+  text-align: left;
+  font-weight: lighter;
+  width: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  color: rgb(209, 209, 209);
+}
+
+h3 {
+  color: rgb(209, 209, 209);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+p1 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.chart,
+.lock,
+.whitepaper,
+.enter,
+.buy-now,
+.telegram {
+
+  height: 70px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: normal;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+
+}
+
+.nav1 .telegram,
+.nav1 .chart,
+.nav1 .lock {
+  width: 180px;
+}
+.nav2 .whitepaper,
+.nav2 .enter,
+.nav2 .buy-now {
+    width: 160px; 
+}
+
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+
+}
+
+.nav1,
+.nav2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.buy-now {
+  
+    border: 1px solid white;
+    color: white;
+    background-color: orange; 
+    opacity: 0.7;
+
+}
+.buy-now .arrow {
+    color: #faf9f7;
+}
+.foto {
+  width: 300px;
+  height: auto;
+  padding: top 20px;
+  ;
+  padding-bottom: 40px;
+}
+
+.foto,
+.navigation {
+  width: 350px;
+  height: 400px;
+}
+
